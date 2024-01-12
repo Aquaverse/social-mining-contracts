@@ -1,0 +1,16 @@
+{
+    "name": "Social Pass",
+    "description": "SendingMe Social Pass",
+    "image": "ipfs://QmYmD6cECoLCz3fCUWWiVfvDu9C4gx2fJAGhbEGomEyY1h?filename=nft-demo.jpg",
+    "external_url": "https://chat.sending.me",
+    "attributes": [
+      {
+        "trait_type": "Ownership",
+        "value": "Personal"
+      },
+      {
+        "trait_type": "Orgnization",
+        "value": "SendingMe"
+      }
+    ]
+  }
