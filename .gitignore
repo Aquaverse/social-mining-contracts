@@ -5,6 +5,9 @@
 # depedencies
 node_modules
 
+# VS Code
+.vscode
+
 # testing
 coverage
 
