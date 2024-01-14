@@ -31,7 +31,7 @@
 
 ## Hot Spot
 
-
+### Contract Detail
 |          | Source Code                            |
 | :--------- | :--------------------------------------- |
 | Contract | [HotSpot.sol](./contracts/HotSpot.sol) |
@@ -49,17 +49,19 @@
 ### Mint Sample
 
 
-| Mint Arguments | for development(Sepolia) | for production(Polygon Mainnet) |
-| :--------------- | -------------------------- | --------------------------------- |
-| Method         | `mint`                   |                                 |
-| Token Uri      |                          |                                 |
-| Transactions   |                          |                                 |
-| NFT Market     |                          |                                 |
+| Mint Arguments | for development(Sepolia)                                                                                                | for production(Polygon Mainnet) |
+| :--------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Method         | `mint`                                                                                                                  |                                 |
+| Token Uri      | ipfs://bafkreidpigxjfnjro6pxht3b5bzym2d7pe6hbwzgmkj5545kaqmaebbyly                                                      |                                 |
+| Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0x2cdb95dd60f2638634314c2455afc554c3cdc793eae8b23ff0a48e9103dcb45c) |                                 |
+| NFT Market     | [Hot Spot](https://testnets.opensea.io/assets/sepolia/0x8fab9ca27aa718b2b3ef0515af3bd07bb21ee99c/1)                     |                                 |
 
 ### Other Trans Sample
 
-* setCostPrice
-* withdraw
+* `setCostPrice`
+  * https://sepolia.etherscan.io/tx/0x3fbdcd818a5ad56a5c5200047665cdf185fad7187c8f758c89a8e66962ab3844
+* `withdraw`
+  * https://sepolia.etherscan.io/tx/0x319f79f7b0de1fb1121d508cd054be270b5894785fb31a51544de5da9c95a381
 
 ## EVM Networks
 
