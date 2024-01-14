@@ -25,7 +25,7 @@
 | Mint Arguments | for development(Sepolia)                                                                                                | for production(Polygon Mainnet) |
 | :--------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
 | Method         | `selfMint`                                                                                                              |                                 |
-| Token Uri      | [token uri](ipfs://bafkreibto3z7jrwonc7swekfv4q2xy6dofe7y34np62m5m72gc6biglhjm)                                         |                                 |
+| Token Uri      | ipfs://bafkreibto3z7jrwonc7swekfv4q2xy6dofe7y34np62m5m72gc6biglhjm                                         |                                 |
 | Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0x7108fafa363e4b956dbef62c4ad789fd50182756d4f187dc46661cb7ebc0b73e) |                                 |
 | NFT Market     | [Social Pass](https://testnets.opensea.io/assets/sepolia/0xae61f1594d47e53434f235065cbd1b8324789596/0)                  |                                 |
 
