@@ -6,11 +6,12 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract SocialPass is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
+contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
     uint256 private _nextTokenId;
-
+    uint256 public costPrice = 0.005 ether;  // mint cost price 0.005
+    
     constructor(address initialOwner)
-        ERC721("Social Pass", "SPA")
+        ERC721("Hot Spot", "HSP")
         Ownable(initialOwner)
     {}
 
@@ -22,16 +23,23 @@ contract SocialPass is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
         _unpause();
     }
 
-    function selfMint(string memory uri) public {
+    function mint(string memory uri) public payable  {
+        require(
+            msg.value >= costPrice,
+            "Not enough Ether sent; check price!"
+            );
         uint256 tokenId = _nextTokenId++;
         _safeMint(msg.sender, tokenId);
         _setTokenURI(tokenId, uri);
     }
 
-    function safeMint(address to, string memory uri) public onlyOwner {
-        uint256 tokenId = _nextTokenId++;
-        _safeMint(to, tokenId);
-        _setTokenURI(tokenId, uri);
+    function withdraw() public onlyOwner   {
+        uint256 balance = address(this).balance;
+        payable(msg.sender).transfer(balance);
+    }
+
+    function setCostPrice(uint256 newPrice) public onlyOwner {
+        costPrice = newPrice;
     }
 
     // The following functions are overrides required by Solidity.
