@@ -1,0 +1,16 @@
+{
+    "name": "Hot Spot",
+    "description": "SendingMe Hot Spot",
+    "image": "ipfs://QmYmD6cECoLCz3fCUWWiVfvDu9C4gx2fJAGhbEGomEyY1h?filename=nft-demo.jpg",
+    "external_url": "https://chat.sending.me",
+    "attributes": [
+      {
+        "trait_type": "Ownership",
+        "value": "Squard & Group"
+      },
+      {
+        "trait_type": "Orgnization",
+        "value": "SendingMe"
+      }
+    ]
+  }
