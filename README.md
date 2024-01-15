@@ -1,4 +1,4 @@
-# Contracs for Social Mining
+# Contracts for Social Mining
 
 ## Social Pass
 
