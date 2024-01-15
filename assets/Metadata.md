@@ -10,6 +10,8 @@ https://eips.ethereum.org/EIPS/eip-721
 
 https://docs.opensea.io/docs/metadata-standards
 
+![](https://files.readme.io/8357ffd-nft-metadata.png)
+
 #### Example：
 
 ```json
@@ -44,8 +46,6 @@ Here's how each of these properties work:
 | attributes    | These are the attributes for the item, which will show up on the OpenSea page for the item. (see below)                                                                                                                                                                                                                                                                                                                                                              |
 | animation_url | A URL to a multi-media attachment for the item. The file extensions GLTF, GLB, WEBM, MP4, M4V, OGV, and OGG are supported, along with the audio-only extensions MP3, WAV, and OGA.<br/><br/>Animation_url also supports HTML pages, allowing you to build rich experiences and interactive NFTs using JavaScript canvas, WebGL, and more. Scripts and relative paths within the HTML page are now supported. However, access to browser extensions is not supported. |
 | youtube_url   | A URL to a YouTube video (only used if animation_url is not provided).                                                                                                                                                                                                                                                                                                                                                                                               |
-
-
 
 ## Json upload
 
