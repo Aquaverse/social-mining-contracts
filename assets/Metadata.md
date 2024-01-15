@@ -3,6 +3,7 @@
 ## Metadata Standard 
 ### EIP
 https://eips.ethereum.org/EIPS/eip-721
+https://docs.opensea.io/docs/metadata-standards
 
 ### Example：
 ```json
