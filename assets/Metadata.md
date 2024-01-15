@@ -53,9 +53,9 @@ Here's how each of these properties work:
 - NFT.Storage: https://nft.storage/
 
 ## How to show NFT
-
-EtherScan:
-Testnet: https://testnets.opensea.io/
+### On TestNet
+NFT Market: https://testnets.opensea.io/
+Metadata Validate: https://testnets-api.opensea.io/api/v1/asset/0xae61f1594d47e53434f235065cbd1b8324789596/0/validate
 
 ## Debug Note
 
@@ -68,5 +68,12 @@ ipfs://bafkreibto3z7jrwonc7swekfv4q2xy6dofe7y34np62m5m72gc6biglhjm
 ipfs://bafkreicmv4uiy6mbrocg5tallhkopcqscxc4azhg2p5grh7ubbjfayso34
 ipfs://QmP9ayW28pbW2V9nYAjEbxv45MTezQpz8S913VbV56nkCg/1000.png
 ipfs://QmYmD6cECoLCz3fCUWWiVfvDu9C4gx2fJAGhbEGomEyY1h?filename=nft-demo.jpg
+ipfs://QmYk6Dt19RdCY5SCyu4yKgGth4m9AaQndPexxtf3CsBnv9
 
 https://ipfs.io/ipfs/QmYmD6cECoLCz3fCUWWiVfvDu9C4gx2fJAGhbEGomEyY1h?filename=nft-demo.jpg
+
+
+ipfs://QmYk6Dt19RdCY5SCyu4yKgGth4m9AaQndPexxtf3CsBnv9?filename=social-pass-nft.jpg
+ipfs://QmS2pmi4HghfLwVpobDCG1ZTdBhfh7b7aLNMceV3ww9GqB?filename=social-pass-metadata.json
+https://ipfs.io/ipfs/QmYk6Dt19RdCY5SCyu4yKgGth4m9AaQndPexxtf3CsBnv9?filename=social-pass-nft.jpg
+ipfs://QmXKAT5nXQ1wzyTUms2XtA8HqZwF6nijLdwopWtsKfTVhH?filename=social-pass-metadata.json
