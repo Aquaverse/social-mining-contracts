@@ -65,7 +65,7 @@
 
 ## EVM Networks
 
-[ChiainList](https://chainlist.org/https:/)
+[ChiainList](https://chainlist.org/)
 
 
 | Block Chain | for development                                     | for production                                         |
