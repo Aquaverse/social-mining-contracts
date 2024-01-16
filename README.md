@@ -64,8 +64,8 @@
   * https://sepolia.etherscan.io/tx/0x319f79f7b0de1fb1121d508cd054be270b5894785fb31a51544de5da9c95a381
 
 ## DApp Demo
-Social Pass and Hot Spot Dapp Demo:
-(Mint NFT DApp)[https://github.com/coralsdm/nft-minter-tutorial/blob/main/README.md]
+Social Pass and Hot Spot Dapp Demo
+* [Mint NFT DApp](https://github.com/coralsdm/nft-minter-tutorial/blob/main/README.md)
 
 
 ## EVM Networks
