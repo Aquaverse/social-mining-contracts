@@ -77,3 +77,47 @@ ipfs://QmYk6Dt19RdCY5SCyu4yKgGth4m9AaQndPexxtf3CsBnv9?filename=social-pass-nft.j
 ipfs://QmS2pmi4HghfLwVpobDCG1ZTdBhfh7b7aLNMceV3ww9GqB?filename=social-pass-metadata.json
 https://ipfs.io/ipfs/QmYk6Dt19RdCY5SCyu4yKgGth4m9AaQndPexxtf3CsBnv9?filename=social-pass-nft.jpg
 ipfs://QmXKAT5nXQ1wzyTUms2XtA8HqZwF6nijLdwopWtsKfTVhH?filename=social-pass-metadata.json
+
+
+https://app-alpha.sending.me/contract/metadata/social-pass.json
+```
+{
+    "name": "Social Pass",
+    "description": "SendingMe Social Pass",
+    "image":"https://app-alpha.sending.me/contract/metadata/social-pass.png",
+    "external_url": "https://chat.sending.me",
+    "attributes": [
+      {
+        "trait_type": "Ownership",
+        "value": "Personal"
+      },
+      {
+        "trait_type": "CloudStorage",
+        "value": "SendingMe"
+      },
+      {
+        "trait_type": "Orgnization",
+        "value": "SendingMe"
+      }
+    ]
+  }
+```
+https://app-alpha.sending.me/contract/metadata/hot-spot.json
+```
+{
+    "name": "Hot Spot",
+    "description": "SendingMe Hot Spot",
+    "image":"https://app-alpha.sending.me/contract/metadata/hot-spot.png",
+    "external_url": "https://chat.sending.me",
+    "attributes": [
+      {
+        "trait_type": "Ownership",
+        "value": "Squad & Group"
+      },
+      {
+        "trait_type": "Orgnization",
+        "value": "SendingMe"
+      }
+    ]
+  }
+```
