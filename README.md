@@ -22,12 +22,12 @@
 ### Mint Sample
 
 
-| Mint Arguments | for development(Sepolia)                                                                                                | for production(Polygon Mainnet) |
-| :--------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| Method         | `selfMint`                                                                                                              |                                 |
-| Token Uri      | https://app-alpha.sending.me/contract/metadata/social-pass.json                                                         |                                 |
-| Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0xfd57f05a601a9e5050a2b9d0c1a866fddd09b427ff90ab2633cbded00d1bf683) |                                 |
-| NFT Market     | [Social Pass](https://testnets.opensea.io/assets/sepolia/0xae61f1594d47e53434f235065cbd1b8324789596/9)                  |                                 |
+| Mint Arguments | for development(Sepolia)                                                                                                | for production(Polygon Mainnet)                            |
+| :--------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Method         | `selfMint`                                                                                                              |                                                            |
+| Token Uri      | https://app-alpha.sending.me/contract/metadata/social-pass.json                                                         | https://chat.sending.me/contract/metadata/social-pass.json |
+| Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0xfd57f05a601a9e5050a2b9d0c1a866fddd09b427ff90ab2633cbded00d1bf683) |                                                            |
+| NFT Market     | [Social Pass](https://testnets.opensea.io/assets/sepolia/0xae61f1594d47e53434f235065cbd1b8324789596/9)                  |                                                            |
 
 ## Hot Spot
 
@@ -51,12 +51,12 @@
 ### Mint Sample
 
 
-| Mint Arguments | for development(Sepolia)                                                                                                | for production(Polygon Mainnet) |
-| :--------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| Method         | `mint`                                                                                                                  |                                 |
-| Token Uri      | https://app-alpha.sending.me/contract/metadata/hot-spot.json                                                            |                                 |
-| Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0x5a6a57a30db16d09ee937aa5668d8da6120943051e12b2934165ae1227434d7f) |                                 |
-| NFT Market     | [Hot Spot](https://testnets.opensea.io/assets/sepolia/0x8fab9ca27aa718b2b3ef0515af3bd07bb21ee99c/9)                     |                                 |
+| Mint Arguments | for development(Sepolia)                                                                                                | for production(Polygon Mainnet)                         |
+| :--------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Method         | `mint`                                                                                                                  |                                                         |
+| Token Uri      | https://app-alpha.sending.me/contract/metadata/hot-spot.json                                                            | https://chat.sending.me/contract/metadata/hot-spot.json |
+| Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0x5a6a57a30db16d09ee937aa5668d8da6120943051e12b2934165ae1227434d7f) |                                                         |
+| NFT Market     | [Hot Spot](https://testnets.opensea.io/assets/sepolia/0x8fab9ca27aa718b2b3ef0515af3bd07bb21ee99c/9)                     |                                                         |
 
 ### Other Trans Sample
 
@@ -66,9 +66,10 @@
   * https://sepolia.etherscan.io/tx/0x319f79f7b0de1fb1121d508cd054be270b5894785fb31a51544de5da9c95a381
 
 ## DApp Demo
-Social Pass and Hot Spot Dapp Demo
-* [Mint NFT DApp](https://github.com/coralsdm/nft-minter-tutorial/blob/main/README.md)
 
+Social Pass and Hot Spot Dapp Demo
+
+* [Mint NFT DApp](https://github.com/coralsdm/nft-minter-tutorial/blob/main/README.md)
 
 ## EVM Networks
 
