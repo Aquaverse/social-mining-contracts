@@ -6,13 +6,6 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-
-// HotSpot Requirements:
-//
-// Mint restrictions 
-//    1 Maximum number of mints per single address, default is 1, configurable
-//    2 Price, default is 0.005 Matic, configurable;
-//    3 Addition of creator to record the wallet address for the first mint.
 contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
     uint256 private _nextTokenId;
     uint256 public costPrice = 0.005 ether;  // mint cost price 0.005
@@ -30,9 +23,6 @@ contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
         _unpause();
     }
 
-    /**
-        Common mint api for any payable address
-     */
     function mint(string memory uri) public payable  {
         require(
             msg.value >= costPrice,
@@ -40,12 +30,6 @@ contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
             );
         uint256 tokenId = _nextTokenId++;
         _safeMint(msg.sender, tokenId);
-        _setTokenURI(tokenId, uri);
-    }
-
-    function safeMint(address to, string memory uri) public onlyOwner {
-        uint256 tokenId = _nextTokenId++;
-        _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
     }
 
