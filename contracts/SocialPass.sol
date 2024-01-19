@@ -24,7 +24,7 @@ contract SocialPass is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
     uint256 private _nextReservedTokenId; 
 
     // common token id cursor (10000 ~ 2²⁵⁶-1)
-    uint256 private _nextTokenId = RESERVED_MAX_TOKEN_ID;
+    uint256 private _nextTokenId = RESERVED_MAX_TOKEN_ID + 1;
     // cost price for `selfMint`, default is 0.0 ether, configurable
     uint256 public costPrice = 0.0 ether;  
     // maximum number of mints per address, default is 1, configurable

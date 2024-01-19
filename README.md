@@ -15,9 +15,9 @@
 
 | Trans & Address    | for development(Sepolia)                                                                                                | for production(Polygon Mainnet) |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| Contract Address   | 0xAe61f1594d47E53434f235065cBd1B8324789596                                                                              | TODO                            |
+| Contract Address   | 0xA7dB3F20aCBc71588E35af7BEB409260645Db4FA                                                                              | TODO                            |
 | Initial Owner      | 0xD16919922A71CF7A1291dA25E95F099156D3C471                                                                              | TODO                            |
-| Deploy Transations | [view on etherscan](https://sepolia.etherscan.io/tx/0xdf89850f0b12d4f8206eecccc6cd34d2ce0fecc925a4a8c2f6ecd8cd64e3786f) | TODO                            |
+| Deploy Transations | [view on etherscan](https://sepolia.etherscan.io/tx/0x795a0c1706224bd30fc7e55f752edc6f0e399230e542779bcb64f1d9ae972516) | TODO                            |
 
 ### Mint Sample
 
@@ -26,7 +26,7 @@
 | :--------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Method         | `selfMint`                                                                                                              |                                                            |
 | Token Uri      | https://app-alpha.sending.me/contract/metadata/social-pass.json                                                         | https://chat.sending.me/contract/metadata/social-pass.json |
-| Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0xfd57f05a601a9e5050a2b9d0c1a866fddd09b427ff90ab2633cbded00d1bf683) |                                                            |
+| Transactions   | [view on etherscan](https://sepolia.etherscan.io/tx/0x7d1e167e6505248d7bc0e051c367244184474edb51b59f5684e11b7e76b7717d) |                                                            |
 | NFT Market     | [Social Pass](https://testnets.opensea.io/assets/sepolia/0xae61f1594d47e53434f235065cbd1b8324789596/9)                  |                                                            |
 
 ## Hot Spot
