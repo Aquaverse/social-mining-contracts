@@ -24,10 +24,10 @@
 
 | Mint Arguments | for development(Polygon Mainnet)                                                                                   | for production(Polygon Mainnet)                            |
 | :--------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Method         | `selfMint`                                                                                                         |                                                            |
+| Method         | `selfMint`                                                                                                         | TODO                                                       |
 | Token Uri      | https://chat.sending.me/contract/metadata/social-pass.json                                                         | https://chat.sending.me/contract/metadata/social-pass.json |
-| Transactions   | [view on etherscan](https://polygonscan.com/tx/0x17fcc9350a9ab2639fdf89535ffb77b4b2ff3d7995023ffc5bc239aacfa34e4d) |                                                            |
-| NFT Market     | [Social Pass](https://opensea.io/assets/matic/0xf22114b675226eb388b3b6cc6a7d32c661c6f8b8/10000)                    |                                                            |
+| Transactions   | [view on etherscan](https://polygonscan.com/tx/0x17fcc9350a9ab2639fdf89535ffb77b4b2ff3d7995023ffc5bc239aacfa34e4d) | TODO                                                       |
+| NFT Market     | [Social Pass](https://opensea.io/assets/matic/0xf22114b675226eb388b3b6cc6a7d32c661c6f8b8/10000)                    | TODO                                                       |
 
 ## Hot Spot
 
@@ -42,21 +42,21 @@
 ### Deploy Contract
 
 
-| Trans & Address    | for development(Polygon Mainnet)           | for production(Polygon Mainnet) |
-| -------------------- | -------------------------------------------- | --------------------------------- |
-| Contract Address   | TODO                                       | TODO                            |
-| Initial Owner      | 0x3AA57edeF2d26cDEC3749740d3293A0FE1720b1D | TODO                            |
-| Deploy Transations | TODO[view on etherscan](TODO)              | TODO                            |
+| Trans & Address    | for development(Polygon Mainnet)                                                                                   | for production(Polygon Mainnet) |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Contract Address   | 0x1E217e160fCa1B67c86C06D3c4EfB9324C64bcE0                                                                         | TODO                            |
+| Initial Owner      | 0x3AA57edeF2d26cDEC3749740d3293A0FE1720b1D                                                                         | TODO                            |
+| Deploy Transations | [view on etherscan](https://polygonscan.com/tx/0xaa0ab26bbf49b2d2e9e9525036c2e6c3a252ba62ccc08023c1a868275bbdb3ca) | TODO                            |
 
 ### Mint Sample
 
 
-| Mint Arguments | for development(Sepolia)                                | for production(Polygon Mainnet)                         |
-| :--------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| Method         | `mint`                                                  |                                                         |
-| Token Uri      | https://chat.sending.me/contract/metadata/hot-spot.json | https://chat.sending.me/contract/metadata/hot-spot.json |
-| Transactions   | TODO[view on etherscan](TODO)                           |                                                         |
-| NFT Market     | TODO[Hot Spot](TODO)                                    |                                                         |
+| Mint Arguments | for development(Polygon Mainnet)                                                                                   | for production(Polygon Mainnet)                         |
+| :--------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Method         | `mint`                                                                                                             | TODO                                                    |
+| Token Uri      | https://chat.sending.me/contract/metadata/hot-spot.json                                                            | https://chat.sending.me/contract/metadata/hot-spot.json |
+| Transactions   | [view on etherscan](https://polygonscan.com/tx/0x0b56b1d499a613f52937389c020bb1ba7685dedd7aa6eebfabb36df8644c50b1) | TODO                                                    |
+| NFT Market     | [Hot Spot](https://opensea.io/assets/matic/0x1e217e160fca1b67c86c06d3c4efb9324c64bce0/0)                           | TODO                                                    |
 
 ### Other Trans Sample
 
@@ -78,9 +78,9 @@ Social Pass and Hot Spot Dapp Demo
 [ChiainList](https://chainlist.org/)
 
 
-| Block Chain | for development                                     | for production                                         |
-| :------------ | ----------------------------------------------------- | -------------------------------------------------------- |
-| Chain       | [**Sepolia**](https://chainlist.org/chain/11155111) | [**Polygon Mainnet**](https://chainlist.org/chain/137) |
-| ChainId     | 11155111 (0xaa36a7)                                 | 137 (0x89)                                             |
-| Currency    | ETH                                                 | MATIC                                                  |
-| RPC         | `https://sepolia.infura.io/v3/<API-KEY>`            | `https://polygon-mainnet.infura.io/v3/<API-KEY>`       |
+| Block Chain | for development 1                                   | for deveopment 2                                       | for production |
+| :------------ | ----------------------------------------------------- | -------------------------------------------------------- | ---------------- |
+| Chain       | [**Sepolia**](https://chainlist.org/chain/11155111) | [**Polygon Mainnet**](https://chainlist.org/chain/137) | TODO           |
+| ChainId     | 11155111 (0xaa36a7)                                 | 137 (0x89)                                             |                |
+| Currency    | ETH                                                 | MATIC                                                  |                |
+| RPC         | `https://sepolia.infura.io/v3/<API-KEY>`            | `https://polygon-mainnet.infura.io/v3/<API-KEY>`       |                |
