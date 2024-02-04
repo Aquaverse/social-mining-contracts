@@ -13,16 +13,16 @@
 ### Deploy Contract
 
 
-| Trans & Address    | for development(Polygon Mainnet)                                                                                   | for production(Polygon Mainnet) |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| Contract Address   | 0xf22114b675226EB388b3B6CC6A7d32C661c6F8B8                                                                         | TODO                            |
-| Initial Owner      | 0x3AA57edeF2d26cDEC3749740d3293A0FE1720b1D                                                                         | TODO                            |
-| Deploy Transations | [view on etherscan](https://polygonscan.com/tx/0xf75454187c953d1d540e2387011eee08005e752b3839a2462c4a559be2d725fb) | TODO                            |
+| Trans & Address    | for development(Polygon Mainnet)                                                                                   | for production(Linea)                            |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| Contract Address   | 0xf22114b675226EB388b3B6CC6A7d32C661c6F8B8                                                                         | TODO                                             |
+| Initial Owner      | matic:0x3AA57edeF2d26cDEC3749740d3293A0FE1720b1D                                                                   | linea:0x9D6feee30C74Ac73aC61F49299e3E64d7122E162 |
+| Deploy Transations | [view on etherscan](https://polygonscan.com/tx/0xf75454187c953d1d540e2387011eee08005e752b3839a2462c4a559be2d725fb) | TODO                                             |
 
 ### Mint Sample
 
 
-| Mint Arguments | for development(Polygon Mainnet)                                                                                   | for production(Polygon Mainnet)                            |
+| Mint Arguments | for development(Polygon Mainnet)                                                                                   | for production(Linea)                                      |
 | :--------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | Method         | `selfMint`                                                                                                         | TODO                                                       |
 | Token Uri      | https://chat.sending.me/contract/metadata/social-pass.json                                                         | https://chat.sending.me/contract/metadata/social-pass.json |
@@ -42,16 +42,16 @@
 ### Deploy Contract
 
 
-| Trans & Address    | for development(Polygon Mainnet)                                                                                   | for production(Polygon Mainnet) |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| Contract Address   | 0x1E217e160fCa1B67c86C06D3c4EfB9324C64bcE0                                                                         | TODO                            |
-| Initial Owner      | 0x3AA57edeF2d26cDEC3749740d3293A0FE1720b1D                                                                         | TODO                            |
-| Deploy Transations | [view on etherscan](https://polygonscan.com/tx/0xaa0ab26bbf49b2d2e9e9525036c2e6c3a252ba62ccc08023c1a868275bbdb3ca) | TODO                            |
+| Trans & Address    | for development(Polygon Mainnet)                                                                                   | for production(Linea)                            |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| Contract Address   | 0x1E217e160fCa1B67c86C06D3c4EfB9324C64bcE0                                                                         | TODO                                             |
+| Initial Owner      | matic:0x3AA57edeF2d26cDEC3749740d3293A0FE1720b1D                                                                   | linea:0x9D6feee30C74Ac73aC61F49299e3E64d7122E162 |
+| Deploy Transations | [view on etherscan](https://polygonscan.com/tx/0xaa0ab26bbf49b2d2e9e9525036c2e6c3a252ba62ccc08023c1a868275bbdb3ca) | TODO                                             |
 
 ### Mint Sample
 
 
-| Mint Arguments | for development(Polygon Mainnet)                                                                                   | for production(Polygon Mainnet)                         |
+| Mint Arguments | for development(Polygon Mainnet)                                                                                   | for production(Linea)                                   |
 | :--------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | Method         | `mint`                                                                                                             | TODO                                                    |
 | Token Uri      | https://chat.sending.me/contract/metadata/hot-spot.json                                                            | https://chat.sending.me/contract/metadata/hot-spot.json |
@@ -78,9 +78,9 @@ Social Pass and Hot Spot Dapp Demo
 [ChiainList](https://chainlist.org/)
 
 
-| Block Chain | for development 1                                   | for deveopment 2                                       | for production |
-| :------------ | ----------------------------------------------------- | -------------------------------------------------------- | ---------------- |
-| Chain       | [**Sepolia**](https://chainlist.org/chain/11155111) | [**Polygon Mainnet**](https://chainlist.org/chain/137) | TODO           |
-| ChainId     | 11155111 (0xaa36a7)                                 | 137 (0x89)                                             |                |
-| Currency    | ETH                                                 | MATIC                                                  |                |
-| RPC         | `https://sepolia.infura.io/v3/<API-KEY>`            | `https://polygon-mainnet.infura.io/v3/<API-KEY>`       |                |
+| Block Chain | for development 1(Sepolia)                          | for deveopment 2(Polygon Mainnet)                      | for production(Linea)                          |
+| :------------ | ----------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------ |
+| Chain       | [**Sepolia**](https://chainlist.org/chain/11155111) | [**Polygon Mainnet**](https://chainlist.org/chain/137) | [Linea](https://chainlist.org/chain/59144)     |
+| ChainId     | 11155111 (0xaa36a7)                                 | 137 (0x89)                                             | 59144(0xe708)                                  |
+| Currency    | ETH                                                 | MATIC                                                  | ETH                                            |
+| RPC         | `https://sepolia.infura.io/v3/<API-KEY>`            | `https://polygon-mainnet.infura.io/v3/<API-KEY>`       | `https://linea-mainnet.infura.io/v3/<API-KEY>` |

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-
+import "./interface/draft-IERC6093.sol";
 
 //HotSpot Requirements:
 //
@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 //    1 Maximum number of mints per single address, default is 1, configurable
 //    2 Price, default is 0.005 Matic, configurable;
 //    3 Addition of creator to record the wallet address for the first mint.
-contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
+contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable, IERC721Errors {
     // common token id cursor (0 ~ 2²⁵⁶-1)
     uint256 private _nextTokenId;
 
@@ -22,12 +22,16 @@ contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
     // maximum number of mints per address, default is 1, configurable
     uint8 public maxMintNumPerAddress = 1;
     // creator map for each tokenId
-    mapping(uint256 tokenId => address) private _creators;
+    // mapping(uint256 tokenId => address) private _creators; // solidity ^0.8.20
+    mapping(uint256 => address) private _creators;
+
 
     constructor(address initialOwner)
         ERC721("Hot Spot", "HSP")
-        Ownable(initialOwner)
-    {}
+        Ownable()
+    {
+        transferOwnership(initialOwner);
+    }
 
     function pause() public onlyOwner {
         _pause();
@@ -149,13 +153,23 @@ contract HotSpot is ERC721, ERC721URIStorage, ERC721Pausable, Ownable {
     }
 
     // The following functions are overrides required by Solidity.
-
-    function _update(address to, uint256 tokenId, address auth)
-        internal
-        override(ERC721, ERC721Pausable)
-        returns (address)
+    function _beforeTokenTransfer(
+        address from,
+        address to,
+        uint256 firstTokenId,
+        uint256 batchSize
+    ) 
+        internal 
+        override(ERC721, ERC721Pausable) 
     {
-        return super._update(to, tokenId, auth);
+        super._beforeTokenTransfer(from, to, firstTokenId, batchSize);
+    }
+    
+    function _burn(uint256 tokenId) 
+        internal
+        override(ERC721, ERC721URIStorage)
+    {
+        super._burn(tokenId);
     }
 
     function tokenURI(uint256 tokenId)
