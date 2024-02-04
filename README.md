@@ -20,6 +20,9 @@
 | Deploy Transations | [view on etherscan](https://polygonscan.com/tx/0xf75454187c953d1d540e2387011eee08005e752b3839a2462c4a559be2d725fb) | [view on etherscan](https://lineascan.build/tx/0x28edd73528a6a64b2ff1d206a26a346efda77fbd2ae4266535e9f0aaf1b5bafd) |
 
 
+### Mint Sample
+
+
 | Mint Arguments | for development(Polygon Mainnet)                                                                                   | for production(Linea)                                                                                              |
 | :--------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Method         | `selfMint`                                                                                                         | `selfMint`                                                                                                         |
